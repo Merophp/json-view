@@ -1,0 +1,22 @@
+{
+	"name": "merophp/json-view",
+	"description": "JSON view plugin for merophp/view-engine",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Robert Becker",
+            "role": "Lead"
+        }
+	],
+    "autoload": {
+        "psr-4": {"Merophp\\JsonViewPlugin\\": "src/"}
+    },
+    "require": {
+      "php": ">=7.4",
+      "merophp/view-engine": "0.1-alpha",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
